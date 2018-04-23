@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sorteio.css">
+    <script src="sorteio.js" charset="utf-8"></script>
+
+    <title></title>
+  </head>
+  <body onload="exibirListas()">
+    <div id="fundoPagina"></div>
+    <div id="cabecalho"></div>
+    <h1 id="textoCabecalho">Show de Prêmios</h1>
+    <form class="" action="index.html" method="post">
+      <h3 id="textoCandidatos">Candidatos:</h3>
+      <textarea rows="10" cols="15" id="areaPessoas"></textarea>
+      <h3 id="textoPremios">Prêmios:</h3>
+      <textarea rows="10" cols="15" id="areaPresentes"></textarea>
+      <button type="button" onclick="sorteio()" id="botaoSortear">Sortear</button>
+      <h4 id="auxiliar">Para SORTEAR novamente <br>atualize a pagina "F5"</h4>
+      <h3 id="textoGanhadores">Ganhadores</h3>
+      <textarea rows="10" cols="15" id="areaGanhadores"></textarea>
+
+      <div id="link">
+        <a href="https://lucaslazarini.github.io/testeDoTT.github.io/"><h2 id="textoTwitter">Twitter</h2></a>
+      </div>
+    </form>
+
+  </body>
+</html>
